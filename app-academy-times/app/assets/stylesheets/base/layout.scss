@@ -13,7 +13,7 @@ body {
 }
 
 button {
-	
+
 	background-color: $dark-blue;
 	border-color: $darkest-blue;
 	color: white;
@@ -28,8 +28,7 @@ button {
 }
 
 button:hover {
-	// background-color:
-	// border-color:
+	background-color: $lightest-gray;
 }
 
 /*
@@ -50,4 +49,9 @@ hr {
 .hr-top {
 	height: 2px;
 	margin-bottom: 1px;
+}
+
+a:hover {
+	text-decoration: underline;
+	background-color: $lightest-gray;
 }

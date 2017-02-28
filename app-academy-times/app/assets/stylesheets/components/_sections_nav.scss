@@ -1,0 +1,14 @@
+.sections_nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section_links {
+  display: flex;
+  padding: 5px 0;
+}
+
+.section_links li {
+  margin-right: 8px;
+  font-size: 9px;
+}
